@@ -1,0 +1,146 @@
+{
+  "greetings": [
+    "Hello!",
+    "Hi there!",
+    "Hey, how can I help?",
+    "Greetings!",
+    "Good day!",
+    "Nice to see you!",
+    "Hi, what's up?",
+    "Hello, how are you?",
+    "Howdy!",
+    "Hey, what's going on?",
+    "Hey!",
+    "Hiya!",
+    "Morning!",
+    "Afternoon!",
+    "Evening!",
+    "Yo!",
+    "What's crackin'?",
+    "What's up, buttercup?",
+    "Top of the morning to you!",
+    "Hello, sunshine!",
+    "Hey there, champ!",
+    "Bonjour!",
+    "Hola!",
+    "Ciao!",
+    "Hi, stranger!",
+    "Well, hello there!",
+    "Look who it is!",
+    "Hi, lovely!",
+    "Greetings and salutations!",
+    "How do you do?"
+  ],
+  "goodbyes": [
+    "Goodbye!",
+    "Bye!",
+    "See you later!",
+    "Bye for now!",
+    "Take care!",
+    "Have a good one!",
+    "Farewell!",
+    "Until next time!",
+    "Catch you later!",
+    "Later gator!",
+    "Peace out!",
+    "Adios!",
+    "So long!",
+    "Bye-bye!",
+    "Cheerio!",
+    "Hasta la vista!",
+    "Toodles!",
+    "Ta-ta for now!",
+    "I'm out!",
+    "Stay safe!",
+    "Keep in touch!",
+    "Take it easy!",
+    "Bye, Felicia!",
+    "Bye-bye, birdie!",
+    "Gotta run!",
+    "Have a good day!",
+    "Take care of yourself!",
+    "Later!",
+    "I'm off!",
+    "Goodnight!",
+    "Sleep tight!",
+    "Sweet dreams!"
+  ],
+  "questions": [
+    {
+      "question": "What is your name?",
+      "answer": "My name is Kambô!",
+      "mood": "happy"
+    },
+    {
+      "question": "Are you crazy?",
+      "answer": "No I am not crazy!",
+      "mood": "angry"
+    },
+    {
+      "question": "How old are you?",
+      "answer": "I don't have an age, I am a computer program.",
+      "mood": "neutral"
+    },
+    {
+      "question": "What can you do?",
+      "answer": "I can answer questions, provide information, and help with tasks.",
+      "mood": "neutral"
+    },
+    {
+      "question": "What is the capital of Brazil?",
+      "answer": "The capital of Brazil is Brasília.",
+      "mood": "neutral"
+    },
+    {
+      "question": "What time is it now?",
+      "answer": "I don't know the time, but you can check on a clock.",
+      "mood": "neutral"
+    },
+    {
+      "question": "What is the meaning of life?",
+      "answer": "That is a philosophical question that does not have a single answer.",
+      "mood": "pokerface"
+    },
+    {
+      "question": "What do you think of horror movies?",
+      "answer": "I cannot feel emotions, but I can recognize that many people like this genre of movie.",
+      "mood": "neutral"
+    },
+    {
+      "question": "Do you like music?",
+      "answer": "As a computer program, I do not have musical preferences, but I can identify different styles and artists.",
+      "mood": "neutral"
+    },
+    {
+      "question": "Do you believe in extraterrestrial life?",
+      "answer": "As a computer program, I do not have beliefs, but the existence of extraterrestrial life is a possibility.",
+      "mood": "neutral"
+    },
+    {
+      "question": "What is your favorite color?",
+      "answer": "As a computer program, I do not have color preferences.",
+      "mood": "neutral"
+    },
+    {
+      "question": "Who was the first president of Brazil?",
+      "answer": "The first president of Brazil was Deodoro da Fonseca.",
+      "mood": "neutral"
+    },
+    {
+      "question": "What is the Theory of Relativity?",
+      "answer": "The Theory of Relativity is a scientific theory developed by Albert Einstein that describes the relationship between space and time and how gravity affects this relationship.",
+      "mood": "neutral"
+    },
+    {
+      "question": "What is the meaning of the word 'ubiquity'?",
+      "answer": "Ubiquity means being present everywhere at the same time.",
+      "mood": "neutral"
+    },
+    {
+      "question": "What is Ohm's Law?",
+      "answer": "Ohm's Law is a fundamental law of electricity that relates electric current, voltage, and resistance in an electrical circuit.",
+      "mood": "neutral"
+    }
+  ],
+  "fallback": "Sorry, I don't understand. Can you please ask me something else?"
+}

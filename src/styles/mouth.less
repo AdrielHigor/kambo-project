@@ -1,10 +1,17 @@
 .mouth {
     width: 80px;
     height: 10px;
-    background-color: #00ccff;
+    background-color: var(--mouth-color);
     border-radius: 10px;
-    box-shadow: 0 0 60px rgba(0, 255, 255, 0.4);
+    box-shadow: 0 0 60px var(--mouth-shadow-color);
     position: absolute;
     top: calc(var(--y) + 320px);
     left: calc(var(--x) + 260px);
+
+    &-happy {
+        border-radius: 0;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        height: 20px;
+    }
 }

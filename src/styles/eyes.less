@@ -2,9 +2,9 @@
   position: absolute;
   width: 60px;
   height: 60px;
-  background-color: #00ccff;
+  background-color: var(--eye-color);
   border-radius: 15px;
-  box-shadow: 0 0 60px rgba(0, 255, 255, 0.4);
+  box-shadow: 0 0 60px var(--eye-shadow-color);
 
   &-left,
   &-right {
@@ -28,11 +28,6 @@
     &-pokerface {
       border-radius: 40px;
       height: 20px;
-    }
-
-    &-sad {
-      border-radius: 0 0 50% 50% / 0 0 100% 100%; // triangular shape
-      height: 30px;
     }
 
     &-angry {

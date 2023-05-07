@@ -2,8 +2,6 @@ const IDLE_TIMEOUT = 2 * 60 * 1000;
 const ROBOT_STATES = {
     NEUTRAL: 'neutral',
     HAPPY: 'happy',
-    SAD: 'sad',
-    BLINK: 'blink',
     FRUSTRATED: 'frustrated',
     POKERFACE: 'pokerface',
     ANGRY: 'angry',
@@ -33,9 +31,11 @@ toggleState = (state) => {
         if (left.classList.contains(`eye-left-${state}`)) {
             left.classList.remove(`eye-left-${state}`);
             right.classList.remove(`eye-right-${state}`);
+            mouth.classList.remove(`mouth-${state}`);
         } else {
             left.classList.add(`eye-left-${state}`);
             right.classList.add(`eye-right-${state}`);
+            mouth.classList.add(`mouth-${state}`);
         }
     }
 };
@@ -86,6 +86,14 @@ function setListeners() {
 
         resetIdleTimer();
     });
+
+    face.addEventListener('click', () => {
+        document.dispatchEvent(new CustomEvent('robotstatechange', { detail: { state: getRandomRobotState() } }));
+
+        setTimeout(() => {
+            document.dispatchEvent(new CustomEvent('robotstatechange', { detail: { state: ROBOT_STATES.NEUTRAL } }));
+        }, 1000);
+    });
 }
 
 function setTimedChanges() {
@@ -93,7 +101,17 @@ function setTimedChanges() {
     //     document.dispatchEvent(new CustomEvent('robotstatechange', { detail: { state: getRandomRobotState() } }));
     // }, 1000);
 
-    document.dispatchEvent(new CustomEvent('robotstatechange', { detail: { state: ROBOT_STATES.SAD } }));
+    setInterval(() => {
+        left.classList.add(`eye-left-blink`);
+        right.classList.add(`eye-right-blink`);
+
+        setTimeout(() => {
+            left.classList.remove(`eye-left-blink`);
+            right.classList.remove(`eye-right-blink`);
+        }, 200);
+    }, 10000);
+
+    // document.dispatchEvent(new CustomEvent('robotstatechange', { detail: { state: ROBOT_STATES.BLINK } }));
 }
 
 function main() {

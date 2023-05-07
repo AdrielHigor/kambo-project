@@ -1,19 +1,73 @@
 :root {
-    --x: 0px;
-    --y: 0px;
+  --x: 0px;
+  --y: 0px;
+  --eye-color: #48ff00;
+  --eye-shadow-color: rgba(106, 255, 0, 0.4);
+  --mouth-color: #48ff00;
+  --mouth-shadow-color: rgba(106, 255, 0, 0.4);
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
 }
 
 .face-container {
-    position: absolute;
-    height: 500px;
-    width: 600px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  height: 500px;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.chat-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 300px;
+  width: 300px;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #7d7d7d;
+
+  .messages-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    line-break: anywhere;
+    justify-content: flex-start;
+    width: 298px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+    .message {
+      &-content {
+        &-text {
+          color: #fff;
+          font-size: 14px;
+          padding: 5px 5px 0 5px;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .input-container {
+    width: 100%;
+
+    input {
+      border: 1px solid #7d7d7d;
+      background-color: transparent;
+      width: 288px;
+      padding: 0 5px;
+      margin: 0;
+      color: #fff;
+      border-radius: 0;
+    }
+  }
 }

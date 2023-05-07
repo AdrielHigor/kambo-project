@@ -1,0 +1,144 @@
+{
+  "greetings": [
+    "Olá!",
+    "Oi!",
+    "E aí, como posso ajudar?",
+    "Saudações!",
+    "Bom dia!",
+    "É bom te ver!",
+    "Oi, o que há de novo?",
+    "Olá, como você está?",
+    "E aí!",
+    "Oi, o que está acontecendo?",
+    "Hey!",
+    "E aí, tudo bem?",
+    "Bom dia!",
+    "Boa tarde!",
+    "Boa noite!",
+    "E aí!",
+    "O que está rolando?",
+    "O que foi?",
+    "Olá, tudo tranquilo?",
+    "Oi, beleza?",
+    "Oi, como você está?",
+    "Bonjour!",
+    "Hola!",
+    "Ciao!",
+    "Oi, estranho!",
+    "Bem, olá!",
+    "Olha só quem chegou!",
+    "Oi, adorável!",
+    "Saudações!",
+    "Como você está?"
+  ],
+  "goodbyes": [
+    "Tchau!",
+    "Até mais!",
+    "Adeus!",
+    "Fique bem!",
+    "Tenha um bom dia!",
+    "Até a próxima!",
+    "Nos vemos!",
+    "Até logo!",
+    "Até breve!",
+    "Fui!",
+    "Até mais ver!",
+    "Valeu!",
+    "Falou!",
+    "Abraço!",
+    "Xau!",
+    "Hasta la vista!",
+    "Tchauzinho!",
+    "Até mais tarde!",
+    "Até a próxima vez!",
+    "Tudo de bom!",
+    "Se cuida!",
+    "Bom descanso!",
+    "Bom trabalho!",
+    "Boa noite!",
+    "Durma bem!",
+    "Bons sonhos!",
+    "Felicidades!",
+    "Até amanhã!",
+    "Que a força esteja com você!",
+    "Fique em paz!"
+  ],
+  "questions": [
+    {
+      "question": "Qual é o seu nome?",
+      "answer": "Meu nome é Kambô!",
+      "mood": "happy"
+    },
+    {
+        "question": "Você é maluco?",
+        "answer": "Não eu não sou maluco!",
+        "mood": "angry"
+      },
+    {
+      "question": "Quantos anos você tem?",
+      "answer": "Eu não tenho idade, sou um programa de computador.",
+      "mood": "neutral"
+    },
+    {
+      "question": "O que você pode fazer?",
+      "answer": "Eu posso responder perguntas, fornecer informações e ajudar com tarefas.",
+      "mood": "neutral"
+    },
+    {
+      "question": "Qual é a capital do Brasil?",
+      "answer": "A capital do Brasil é Brasília.",
+      "mood": "neutral"
+    },
+    {
+      "question": "Que horas são agora?",
+      "answer": "Eu não sei dizer as horas, mas você pode verificar em um relógio.",
+      "mood": "neutral"
+    },
+    {
+      "question": "Qual é o sentido da vida?",
+      "answer": "Essa é uma pergunta filosófica que não tem uma resposta única.",
+      "mood": "pokerface"
+    },
+    {
+      "question": "O que você acha de filmes de terror?",
+      "answer": "Eu não posso sentir emoções, mas posso reconhecer que muitas pessoas gostam desse gênero de filme.",
+      "mood": "neutral"
+    },
+    {
+      "question": "Você gosta de música?",
+      "answer": "Como um programa de computador, não tenho preferências musicais, mas posso identificar diferentes estilos e artistas.",
+      "mood": "neutral"
+    },
+    {
+      "question": "Você acredita em vida extraterrestre?",
+      "answer": "Como um programa de computador, não tenho crenças, mas a existência de vida extraterrestre é uma possibilidade.",
+      "mood": "neutral"
+    },
+    {
+      "question": "Qual é a sua cor favorita?",
+      "answer": "Como um programa de computador, não tenho preferências por cores.",
+      "mood": "neutral"
+    },
+    {
+      "question": "Quem foi o primeiro presidente do Brasil?",
+      "answer": "O primeiro presidente do Brasil foi Deodoro da Fonseca.",
+      "mood": "neutral"
+    },
+    {
+      "question": "O que é a Teoria da Relatividade?",
+      "answer": "A Teoria da Relatividade é uma teoria científica desenvolvida por Albert Einstein que descreve a relação entre o espaço e o tempo e como a gravidade afeta essa relação.",
+      "mood": "neutral"
+    },
+    {
+      "question": "Qual é o significado da palavra 'ubiquidade'?",
+      "answer": "Ubiquidade significa estar presente em todos os lugares ao mesmo tempo.",
+      "mood": "neutral"
+    },
+    {
+      "question": "O que é a Lei de Ohm?",
+      "answer": "A Lei de Ohm é uma lei fundamental da eletricidade que relaciona a corrente elétrica, a tensão e a resistência em um circuito elétrico.",
+      "mood": "neutral"
+    }
+  ],
+  "fallback": "Desculpe, eu não entendi. Pode fazer outra pergunta?"
+}
